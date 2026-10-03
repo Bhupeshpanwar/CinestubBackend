@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Secrets (never commit your API key)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
